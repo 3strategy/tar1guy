@@ -5,8 +5,10 @@ import Stringer from './components/Stringer';
 function App() {
   return (
     <div>
-      <Counter></Counter>
-      <Stringer></Stringer>
+      <Counter/>
+      <Counter/>
+      <Counter/>
+      <Stringer/>
     </div>
 
   )

@@ -12,11 +12,11 @@ function Counter() {
         setCounter(counter - 100);
     }
     return (
-        <div>
+        <div class="counterContainer">
             <h1>My Counter</h1>
             <p>{counter}</p>
-            <button onClick={inc}>Add 100</button>
-            <button onClick={dec}>Subtract 100</button>
+            <button class="btn" onClick={inc}>Add 100</button>
+            <button class="btn" onClick={dec}>Subtract 100</button>
         </div>
     )
 }
