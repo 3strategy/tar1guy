@@ -1,12 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-
+import { useState } from "react";
 function App() {
-  let counter = 0;
+  console.log("a");
+  const [counter, setCounter] = useState(0);
 
   function inc() {
-    counter++;
-    alert(counter);
+    setCounter(counter + 1);
   }
   return (
     <div>
