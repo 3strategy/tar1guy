@@ -1,9 +1,14 @@
 import './App.css';
 import Counter from './components/Counter';
+import Stringer from './components/Stringer';
 
 function App() {
   return (
-    <Counter></Counter>
+    <div>
+      <Counter></Counter>
+      <Stringer></Stringer>
+    </div>
+
   )
 }
 
